@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Poppins:wght@400;700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(33,37,41,255);
+    --bs-bg-opacity: 1;
+
+}
+
+p {
+    margin-bottom: 0;
+}
+
+main {
+    min-height: 100vh;
+}
+.container-agenda { 
+    background-color:rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
+    padding-top: 1px;
+    --bs-bg-opacity: 1;
+    border-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
+
+}
+.container-agenda h1 {
+    font-weight: bold;
+    color: dodgerblue;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.formulario-datos {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 15px auto;
+}
+
+.formulario-datos input{
+    margin: 15px 0;
+    line-height: 35px;
+    background: none;
+    outline: 0;
+    border: 0;
+    color: white;
+}
+
+.formulario-datos input:active{
+    border-bottom: 1px solid dodgerblue;
+}
+
+.formulario-datos input:focus{
+    border-bottom: 1px solid dodgerblue;
+}
+
+.formulario-datos button {
+    margin: 15px 0;
+    background: dodgerblue;
+    border: 0;
+    outline: 0;
+    height: 40px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.title h2 {
+    background-color: darkolivegreen;
+    color: white;
+    text-align: center;
+    margin: 40px auto;
+    border: 0;
+    outline: 0;
+    border-radius: 5px; 
+    width: fit-content;
+    font-size: 20px;
+    padding: 15px
+}
+.listado-contactos {
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.contacto {
+    color: white;
+    font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 50px;
+    align-items: center;
+    margin: 10px 0;
+
+}
+
+.icono {
+    color: tomato;
+    cursor: pointer;
+}
+
+footer {
+    margin-inline: auto;
+    margin-top: auto;
+    background: dodgerblue;
+    max-height: 40px;
+    text-align: center;
+    padding: 10px;
+}
